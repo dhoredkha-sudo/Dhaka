@@ -21,6 +21,11 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.gradle_dependencies =
+# Accept the Android SDK licence automatically. Without this, in
+# GitHub Actions (no keyboard) the licence prompt is skipped,
+# build-tools is not installed, and the build fails with
+# "Aidl not found, please install it."
+android.accept_sdk_license = True
 # Do not change this unless you know why: it is the entry file.
 android.entrypoint = org.kivy.android.PythonActivity
 
