@@ -20,6 +20,7 @@ orientation = portrait
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
+android.archs = arm64-v8a
 android.gradle_dependencies =
 # Accept the Android SDK licence automatically. Without this, in
 # GitHub Actions (no keyboard) the licence prompt is skipped,
